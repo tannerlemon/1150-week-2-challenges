@@ -43,23 +43,23 @@ namespace Week_2_Challenges
 
             if (nowTimeSpan <= endOfNight || nowTimeSpan > endOfEvening)
             {
-                Console.WriteLine("Good Night! " + name);
-                return "Good Night!" + name;
+                Console.WriteLine("Good Night, " + name + "!");
+                return "Good Night, " + name + "!";
             }
             else if (nowTimeSpan <= endOfMorning)
             {
-                Console.WriteLine("Good Morning! " + name);
-                return "Good Morning!" + name;
+                Console.WriteLine("Good Morning, " + name + "!");
+                return "Good Morning, " + name + "!";
             }
             else if (nowTimeSpan <= endOfAfternoon)
             {
-                Console.WriteLine("Good Afternoon! " + name);
-                return "Good Afternoon!" + name;
+                Console.WriteLine("Good Afternoon, " + name + "!");
+                return "Good Afternoon, " + name + "!";
             }
             else
             {
-                Console.WriteLine("Good Evening! " + name);
-                return "Good Evening!" + name;
+                Console.WriteLine("Good Evening, " + name + "!");
+                return "Good Evening, " + name + "!";
             }
         }
     }
